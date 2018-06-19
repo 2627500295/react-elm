@@ -37,10 +37,10 @@ const baseConfig = merge(
       // 压缩工具
       minimizer: [
         // JavaScript 压缩
-        new UglifyJS({uglifyOptions: { output: { comments: false } }}),
+        new UglifyJS({ uglifyOptions: { output: { comments: false } } }),
 
         // CSS 压缩
-        new OptimizeCSS({cssProcessorOptions: { autoprefixer: false, sourcemap: true, discardComments: true, safe: true }})
+        new OptimizeCSS({ cssProcessorOptions: { autoprefixer: false, sourcemap: true, discardComments: true, safe: true } })
       ]
     },
 
@@ -63,7 +63,7 @@ const baseConfig = merge(
       modules: ['node_modules'],
 
       // 自动解析确定的扩展
-      extensions: ['.ts', '.tsx', '.js', '.jsx', '.mjs', '.json'],
+      extensions: ['.ts', '.tsx', '.js', '.jsx', '.mjs', '.json', '.scss'],
 
       // 创建 import 或 require 的别名
       alias: {
