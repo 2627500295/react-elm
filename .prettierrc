@@ -1,0 +1,54 @@
+{
+  // 禁用语言
+  "disableLanguages": ["vue"],
+
+
+  // 120 个字符
+  "printWidth": 120,
+
+  // Tab 宽
+  "tabWidth": 2,
+
+  // 使用制表符
+  "useTabs": false,
+
+
+  // 解析方式
+  "parser": "flow",
+
+  // Markdown
+  "proseWrap": "preserve",
+
+
+  // 单引号
+  "singleQuote": true,
+
+  // 尾随分号
+  "semi": true,
+
+  // 尾随逗号
+  "trailingComma": "none",
+
+  // 数组括号添加空格
+  "bracketSpacing": false,
+
+  // 箭头函数参数始终放置圆括号
+  "arrowParens": "always",
+
+  // JSX > 放置在最后一行行尾
+  "jsxBracketSameLine": false,
+
+
+  // prettier-eslint
+  "eslintIntegration": false,
+
+  // prettier-stylelint
+  "stylelintIntegration": false,
+
+
+  // 过滤文件路径
+  "ignorePath": ".prettierignore",
+
+  // Require prettierconfig
+  "requireConfig": false,
+}

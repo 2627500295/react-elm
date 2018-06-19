@@ -1,0 +1,53 @@
+.footer {
+  .navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.2vw;
+    background-color: #fff;
+    height: 13.333333vw;
+    box-shadow: 0 -.266667vw .533333vw rgba(0,0,0,.1);
+
+    .nav-link {
+      text-decoration: none;
+      display: block;
+      flex: 1;
+      text-align: center;
+
+      &.active {
+        span {
+          color: #0089dc;
+        }
+
+        svg:nth-child(1) {
+          display: none;
+        }
+
+        svg:nth-child(2) {
+          display: inline;
+        }
+      }
+
+      svg {
+        width: 5.333333vw;
+        height: 5.333333vw;
+        // margin: 0 auto;
+      }
+
+      svg:nth-child(2) {
+        display: none;
+      }
+
+      span {
+        display: block;
+        color: #8e8e93;
+        font-size: 2.66667vw;
+      }
+    }
+  }
+}

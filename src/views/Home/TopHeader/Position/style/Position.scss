@@ -1,0 +1,33 @@
+.position {
+  width: 60%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  .icon-map {
+    width: 3.466667vw;
+    height: 4.133333vw;
+  }
+  
+  .icon-dropdown {
+    width: 1.866667vw;
+    height: .933333vw;
+    fill: #fff;
+  }
+  
+  .name {
+    margin: 0 1.333333vw;
+    font-size: 4.53333vw;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+// 1vw = 4.125px;
+// 1px / 4.125px = 0.234375vw;
+
+// 100% = 1
+// 10%  = 0.1
+// %1   = 0.01

@@ -1,0 +1,32 @@
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+.weather {
+  display: flex;
+
+  .tem {
+    font-size: 14px;
+  }
+
+  .wea {
+    font-size: 12px;
+  }
+
+  .ico {
+    @include size(29px);
+    margin-left: 5px;
+
+    img {
+      @include size(100%);
+    }
+  }
+}
+
+// 1vw = 4.125px;
+// 1px / 4.125px = 0.234375vw;
+
+// 100% = 1
+// 10%  = 0.1
+// %1   = 0.01

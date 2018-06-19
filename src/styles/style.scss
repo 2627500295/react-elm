@@ -1,0 +1,28 @@
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin disabled-select() {
+  user-select: none;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Helvetica Neue', Tahoma, Arial, 'PingFangSC-Regular', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  line-height: 1.2;
+  @include disabled-select();
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,415 @@
+
+{
+  //
+  // Window
+  //
+
+  // 缩放等级
+  "window.zoomLevel": 0,
+
+
+  //
+  // Editor
+  //
+
+  // 根据文件检测 "tabSize" 和 "insertSpaces"。
+  "editor.detectIndentation": false,
+
+  // Tab
+  "editor.tabSize": 2,
+
+  // 按 TAB 插入空格
+  "editor.insertSpaces": true,
+
+  // 是否启用 Mini Map
+  "editor.minimap.enabled": false,
+
+  // Sidebar 位置
+  "workbench.sideBar.location": "left",
+
+  // 开始时显示页面
+  "workbench.startupEditor": "newUntitledFile",
+
+  // 保存自动格式化
+  "editor.formatOnSave": false,
+
+
+  //
+  // Fonts
+  //
+
+  // 字体
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+
+  // 字号
+  "editor.fontSize": 14,
+
+  // 行高
+  "editor.lineHeight": 26,
+
+  // 字宽
+  "editor.fontWeight": "400",
+
+
+  //
+  // 文件配置
+  //
+
+  // 启用后，保存文件时在文件末尾插入一个最终新行。
+  "files.insertFinalNewline": true,
+
+  // 启用后，保存文件时将删除在最终新行后的所有新行。
+  "files.trimFinalNewlines": true,
+  
+
+  //
+  // 沉浸模式 { OS X: Command + K, Z } { Win: Ctrl + K, Z }
+  //
+
+  // 隐藏标签栏
+  "zenMode.hideTabs": false,
+
+  // 中间布局
+  "zenMode.centerLayout": true,
+
+  // 全屏幕
+  "zenMode.fullScreen": true,
+
+  // 隐藏 Activity Bar
+  "zenMode.hideActivityBar": true,
+
+  // 状态栏
+  "zenMode.hideStatusBar": true,
+
+  // 重启后恢复
+  "zenMode.restore": false,
+
+
+  // 
+  // TypeScript
+  //
+  
+  // TypeScript 启用保存自动格式化
+  "[typescript]": { "editor.formatOnSave": true },
+
+  // TypeScript React 启用保存自动格式化
+  "[typescriptreact]": { "editor.formatOnSave": true },
+
+  // 启用 / 禁用默认 TypeScript 格式化程序。
+  "typescript.format.enable": true,
+
+  // 定义逗号分隔符后面的空格处理。
+  "typescript.format.insertSpaceAfterCommaDelimiter": true,
+
+  // 定义构造器关键字后的空格处理。
+  "typescript.format.insertSpaceAfterConstructor": true,
+
+  // 定义匿名函数的函数关键字后面的空格处理。
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+  // 定义控制流语句中关键字后面的空格处理。
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+  // 定义 JSX 表达式左括号后面和右括号前面的空格处理。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+
+  // 定义非空大括号的左括号后和右括号前的空格处理方式。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+
+  // 定义非空中括号的左括号后和右括号前的空格处理方式。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+  // 定义非空小括号的左括号后和右括号前的空格处理方式。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+  // 在 For 语句中，定义分号后面的空格处理。
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+  // 定义 TypeScript 中类型断言后的空格处理。
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+
+  // 定义二进制运算符后面的空格处理
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+  // 在函数参数括号前定义空格处理。
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+
+  // 定义控制块的左括号是否放置在新的一行。
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+  // 定义函数的左大括号是否放置在新的一行。
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+  // 定义模板字符串的左括号后面和右括号前面的空格处理。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+  // 在 VS Code 中重命名或移动文件时启用或禁用自动更新 import 语句的路径。可选值有: "prompt" (在每次重命名时提示)、"always" (始终自动更新路径) 和 "never" (从不重命名路径且不要提示)。要求 TypeScript >= 2.9
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // 设置在报告 JavaScript 和 TypeScript 错误时使用的区域设置
+  "typescript.locale": "en",
+  
+
+  //
+  // JavaScript
+  //
+
+  // JavaScript 启用保存自动格式化
+  "[javascript]": { "editor.formatOnSave": true },
+  
+  // JavaScript React 启用保存自动格式化
+  "[javascriptreact]": { "editor.formatOnSave": true },
+
+  // 是否启用 JavaScript 格式化程序。
+  "javascript.format.enable": true,
+  
+  // 控制是否应在遇到提交字符时接受建议。例如，在 JavaScript 中，分号(";")可以为提交字符，可接受建议并键入该字符。
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  // 定义逗号分隔符后面的空格处理。
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  
+  // 定义构造器关键字后的空格处理。要求 TypeScript >= 2.3.0。
+  "javascript.format.insertSpaceAfterConstructor": false,
+
+  // 定义匿名函数的函数关键字后面的空格处理。
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+  // 定义控制流语句中关键字后面的空格处理。
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+  // 定义 JSX 表达式左括号后面和右括号前面的空格处理。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  
+  // 定义非空大括号的左括号后和右括号前的空格处理方式。要求 TypeScript >= 2.3.0。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+
+  // 定义非空中括号的左括号后和右括号前的空格处理方式。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+  // 定义非空小括号的左括号后和右括号前的空格处理方式。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+  // 定义模板字符串的左括号后面和右括号前面的空格处理。要求 TypeScript >= 2.0.6。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+  // 在 For 语句中，定义分号后面的空格处理。
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+  // 定义二进制运算符后面的空格处理
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+  // 在函数参数括号前定义空格处理。需要 TypeScript >= 2.1.5。
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+
+  // 定义控制块的左括号是否放置在新的一行。
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+  // 定义函数的左大括号是否放置在新的一行。
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+  // 启用或禁用 JavaScript 文件的语义检查。若有 jsconfig.json 或 tsconfig.json 文件，将覆盖此设置。要求 TypeScript >= 2.3.1。
+  "javascript.implicitProjectConfig.checkJs": false,
+
+  // 对不属于任何工程的 JavaScript 文件启用或禁用 "experimentalDecorators" 设置。若有 jsconfig.json 或 tsconfig.json 文件，将覆盖此设置。要求 TypeScript >= 2.3.1。
+  "javascript.implicitProjectConfig.experimentalDecorators": false,
+
+  // 启用/禁用在 JavaScript 建议列表中包含文件中的唯一名称。
+  "javascript.nameSuggestions": true,
+
+  // 自动 import 语句中首选的路径类型:
+  // - "relative"，相对路径。
+  // - "non-relative"，根据 "jsconfig.json" 或 "tsconfig.json" 中设置的 "baseUrl" 的计算出的路径。
+  // - "auto"，推测最短路径类型。
+  // 要求 TypeScript >= 2.9
+  "javascript.preferences.importModuleSpecifier": "auto",
+
+  // 用于快速修复的首选引用样式: "single" (单引号)、"double" (双引号) 或 "auto" (从已有 import 语句中推测引号类型)。要求 TypeScript >= 2.9
+  "javascript.preferences.quoteStyle": "auto",
+
+  // 启用/禁用在 JavaScript 文件中引用 CodeLens。
+  "javascript.referencesCodeLens.enabled": false,
+
+  // 启用或禁用突出显示代码中未使用的变量。要求 TypeScript >= 2.9
+  "javascript.showUnused": true,
+
+  // 在 JavaScript 文件中启用或禁用编辑器的建议诊断。需要 TypeScript >= 2.8
+  "javascript.suggestionActions.enabled": true,
+
+  // 在 VS Code 中重命名或移动文件时启用或禁用自动更新 import 语句的路径。可选值有: "prompt" (在每次重命名时提示)、"always" (始终自动更新路径) 和 "never" (从不重命名路径且不要提示)。要求 TypeScript >= 2.9
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // 启用/禁用 JavaScript 验证。
+  "javascript.validate.enable": true,
+
+  
+  //
+  // JSON
+  //
+  
+  // 针对 [json] 语言，配置替代编辑器设置。
+  "[json]": {
+    "editor.formatOnSave": false,
+  },
+
+
+  //
+  // Emmet
+  //
+  
+  // 配置emmet是否启用tab展开缩写
+  "emmet.triggerExpansionOnTab": true,
+  
+  // 配置emmet对文件类型的支持
+  "emmet.syntaxProfiles": {
+    "TypeScript React": "tsx",
+    "typescript": "typescriptreact",
+
+    "JavaScript React": "jsx",
+    "javascript": "javascriptreact",
+  
+    "vue-html": "html",
+    "vue": "html",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+
+  //
+  // ESLint
+  //
+
+  // 是否启用 ESLint
+  "eslint.enable": true,
+
+
+  //
+  // TSLint
+  //
+
+  // 是否对 JavaScript 启用代码检测
+  "tslint.jsEnable": false,
+
+
+  //
+  // TODO Highlight
+  //
+
+  // 高亮
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|NOTE:",
+
+  // 排除
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+
+  // 启用
+  "todohighlight.isEnable": true,
+
+
+  //
+  // PX 2 REM
+  //
+
+  // px2rem 插入时包含注释
+  "px2rem.isNeedNotes": false,
+
+  
+  //
+  // Date & Time
+  //
+
+  // Date & Time 格式
+  "dateTime.customFormat": "YYYY-MM-DD HH:mm:ss",
+
+
+  //
+  // Prettier
+  //
+
+  // 禁用语言
+  "prettier.disableLanguages": ["vue"],
+
+  // 120 个字符
+  "prettier.printWidth": 120,
+
+  // Tab 宽
+  "prettier.tabWidth": 2,
+
+  // 使用制表符
+  "prettier.useTabs": false,
+
+  // 解析方式
+  "prettier.parser": "flow",
+
+  // Markdown
+  "prettier.proseWrap": "preserve",
+
+  // 单引号
+  "prettier.singleQuote": true,
+
+  // 尾随分号
+  "prettier.semi": true,
+
+  // 尾随逗号
+  "prettier.trailingComma": "none",
+
+  // 数组括号添加空格
+  "prettier.bracketSpacing": false,
+
+  // 箭头函数参数始终放置圆括号
+  "prettier.arrowParens": "always",
+
+  // JSX > 放置在最后一行行尾
+  "prettier.jsxBracketSameLine": false,
+
+  // prettier-eslint
+  "prettier.eslintIntegration": false,
+
+  // prettier-stylelint
+  "prettier.stylelintIntegration": false,
+
+  // 过滤文件路径
+  "prettier.ignorePath": ".prettierignore",
+
+  // Require prettierconfig
+  "prettier.requireConfig": false,
+
+
+  //
+  // 主题
+  //
+
+  // 工作区图标
+  "workbench.iconTheme": "eq-material-theme-icons",
+
+  // 工作区颜色
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FF4081",
+    "list.activeSelectionForeground": "#FF4081",
+    "list.inactiveSelectionForeground": "#FF4081",
+    "list.highlightForeground": "#FF4081",
+    "scrollbarSlider.activeBackground": "#FF408150",
+    "editorSuggestWidget.highlightForeground": "#FF4081",
+    "textLink.foreground": "#FF4081",
+    "progressBar.background": "#FF4081",
+    "pickerGroup.foreground": "#FF4081",
+    "tab.activeBorder": "#FF4081",
+    "notificationLink.foreground": "#FF4081"
+  },
+
+  // 工作区主题
+  "workbench.colorTheme": "Material Theme",
+
+  // 主题配置
+  "materialTheme.fixIconsRunning": false,
+}
