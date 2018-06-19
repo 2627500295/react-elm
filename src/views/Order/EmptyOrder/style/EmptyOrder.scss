@@ -1,0 +1,31 @@
+.empty-order{
+	flex:1;
+	overflow-y:auto;
+	overflow-x:hidden;
+	.nodatatipWrap{
+		margin-top: 26.666667vw;
+	  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+    	width:53.333333vw
+    }
+    h3{
+      margin: 3.333333vw 0 2.666667vw;
+	    color: #6a6a6a;
+	    font-weight: 400;
+	    font-size: 4.53333vw;
+    }
+    button{
+      padding: 2.666667vw;
+	    min-width: 32vw;
+	    border: none;
+	    border-radius: .533333vw;
+	    background-color: #56d176;
+	    color: #fff;
+	    text-align: center;
+	    font-size: 3.6667vw;
+    }
+	}
+}
