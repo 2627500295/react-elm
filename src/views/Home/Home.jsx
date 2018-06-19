@@ -98,9 +98,12 @@ class Home extends Component {
             <Weather weather={weather} />
           </Wrapper>
         </Header>
-        <Search />
-        <Carousel className="carousel" carousel={bigSale} />
-        <FoodEntry className="foodentry" foodentry={foodentry} />
+        <div className='index-content'>
+          <Search />
+          <Carousel className="carousel" carousel={bigSale} />
+          <FoodEntry className="foodentry" foodentry={foodentry} />
+        </div>
+        
         <Footer className={classnames(`${prefixCls}-footer`, 'footer')} />
       </div>
     );

@@ -1,0 +1,124 @@
+.profile-info{
+	height: 100vh;
+	background:#f5f5f5;
+	display:flex;
+	flex-direction:column;
+	.profile-content{
+  	flex:1;
+  	overflow-x:hidden;
+  	overflow-y:auto;
+  };
+	.profile-is-login{
+	  display: flex;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    padding: 6.666667vw 4vw;
+    color: #fff;
+    align-items: center;
+    .profile-icon{
+    	flex-shrink: 0;
+	    border-radius: 50%;
+	    width: 16vw;
+	    height: 16vw;
+	    overflow:hidden;
+	    img{
+		    width:100%;
+		    height:100%;
+	    }
+    };
+    .profile-is-login-info{
+    	flex:1;
+    	margin-left: 4.8vw;
+	    p{
+	    	line-height:0 !important;
+		    &:nth-child(1){
+		    	font-size: 5.6vw;
+			    margin-bottom: 2.133333vw;
+			    font-weight: 700;
+		    };
+		    &:nth-child(2){
+		    	font-size: 3.2vw;
+			    &>svg{
+				    margin-right: .666667vw;
+				    width: 1.866667vw;
+				    height: 2.933333vw;
+				    background:green;
+			    }
+		    };
+	    };
+    };
+    &>span svg{
+	    width: 2.666667vw;
+	    height: 5.6vw;
+	    background:yellow;
+    };
+	};
+	.profile-wallet{
+		display: flex;
+    height: 22.4vw;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    a{
+    	flex:1;
+    	text-decoration: none;
+    	display:flex;
+    	align-items:center;
+    	justify-content:center;
+    	flex-direction:column;
+    	border-right:1px solid #ddd;
+    	aside{
+    		&>svg{
+    			width: 6.933333vw;
+    			height: 6.933333vw;
+    			background:red;
+    		}
+    	}
+    	div{
+    	  margin-top: 1.333333vw;
+		    font-size: 3.2vw;
+		    line-height: 3.733333vw;
+		    font-weight: 500;
+		    color: #666;
+		    font-weight: 700;
+    	}
+    }
+	};
+	section{
+		margin-top: 2.666667vw;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background:#fff;
+		a{
+			text-decoration: none;
+			padding-left: 6.666667vw;
+			display:flex;
+    	align-items: center;
+			&.index-border{
+				.mine-list{
+					border-bottom: 1px solid #eee;
+				}
+			}
+			aside{
+				margin: 0 2.666667vw;
+				svg{
+					width:4.8vw;
+					height:4.8vw;
+					background:blue;
+				}
+			}
+			.mine-list{
+				padding: 3.733333vw 2.666667vw 3.733333vw 0;
+				flex:1;
+				color:#333;
+				font-size:4.26667vw;
+				display:flex;
+				justify-content: space-between;
+    		align-items: center;
+				span>svg{
+					width:2.666667vw;
+					height:2.666667vw;
+					background:yellow;
+				}
+			}
+		}
+	};
+};
