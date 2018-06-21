@@ -1,0 +1,58 @@
+.activity-body{
+	padding: 3.2vw 0 4vw 4vw;
+	.ui-ellipsis{
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	}
+	a{
+	    display: inline-block;
+	    position: relative;
+	    box-sizing: border-box;
+	    width: 29.6vw;
+	    margin-right: 1.6vw;
+	    img{
+		    width: 43.2vw;
+		    height: 29.333333vw;
+		    margin-bottom: 2.533333vw;
+		    max-width:100%;
+	    }
+	    .food-info{
+	    	p{
+	    	    font-size: 3.46667vw;
+			    color: #333;
+			    margin-top:0;
+			    margin-bottom: 1.333333vw;
+	    	}
+	    	.food-price{
+	    		.price{
+    		        font-size: 3.46667vw;
+				    height: 4.8vw;
+				    line-height: 4.8vw;
+				    color: #ff5339;
+				    margin-right: .933333vw;
+				    max-width: 13.333333vw;
+				    display: inline-block;
+				    vertical-align: middle;
+	    		}
+	    		.original-price{
+		    		font-size: 2.93333vw;
+		    		transform: scale(.9);
+				    color: #aaa;
+				    max-width: 10.666667vw;
+				    display: inline-block;
+				    vertical-align: middle;
+	    		}
+	    	}
+	    }
+	    .discount{
+	        position: absolute;
+		    top: 0;
+		    left: 0;
+		    font-size: 2.93333vw;
+		    color: #fff;
+		    background: #413d3c;
+		    padding: .666667vw;
+	    }
+	}
+}
