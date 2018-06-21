@@ -1,0 +1,40 @@
+.part-list{
+	width:50%;
+	height:21.333333vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4vw;
+  border-bottom: 1px solid #ededed;
+  &:nth-child(3){position:absolute;top:21.333333vw;left:50%;}
+  &:nth-child(4){border-right: 1px solid #ededed;}
+  &.actHeight{
+  	height: 42.666667vw;
+  	padding: 5.866667vw 2.933333vw 1.6vw 4.266667vw;
+  	align-items: normal;
+  	border-right: 1px solid #ededed;
+  	img{width:20vw;height:20vw;align-self: flex-end;}
+  }
+	.content-wrapper{
+    max-width: 30vw;
+    .title{
+        line-height: 1.2;
+	    font-size: 4.26667vw;
+	    margin-bottom: 1.6vw;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    margin-top:0;
+    }
+    .tips{
+        line-height: 1.2;
+	    font-size: 3.2vw;
+	    color: #999;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    margin-top:0;
+    }
+	}
+	img{width: 12vw;}
+}

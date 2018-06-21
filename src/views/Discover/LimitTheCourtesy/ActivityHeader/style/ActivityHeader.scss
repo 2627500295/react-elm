@@ -1,0 +1,44 @@
+.activity-header{
+	.activity-title{
+	    padding-top: 5.2vw;
+	    text-align: center;
+	    font-size: 4.8vw;
+	    font-weight: 700;
+	    color: #333;
+		.line{
+			display: inline-block;
+		    margin: 2.133333vw .933333vw 1.733333vw;
+		    border: 1px solid #333;
+		    width: 4vw;
+		    height: 0;
+		    position: relative;
+		    &:after{
+		        position: absolute;
+			    top: -.666667vw;
+			    content: "";
+			    background: #333;
+			    height: 1.333333vw;
+			    width: 1.333333vw;
+			    border-radius: 50%;
+		    };
+		    &.right:after{left: -.666667vw;};
+		    &.left:after{right: -.666667vw;};
+		}
+		.activity-icon{
+			svg{
+				position: relative;
+			    top: .533333vw;
+			    width: 4.4vw;
+			    height: 4.4vw;
+			}
+		}
+	}
+	.activity-sub-title{
+		font-size:2.93333vw;
+	    color: #999;
+	    text-align: center;
+	    padding-bottom: 2.133333vw;
+	    margin:0;
+	    transform: scale(.9);
+	}
+}
